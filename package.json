@@ -1,7 +1,7 @@
 {
   "name": "blog",
   "private": true,
-  "description": "「作って学ぶ Next.js/React Webサイト構築」のChapter 10で完成させるプロジェクトデータです",
+  "description": "『作って学ぶ Next.js/React Webサイト構築』の副読本「Next.js 13 対応ガイド」の「本書のプロジェクトをApp Routerへ移行する方法」で完成させるプロジェクトデータです",
   "homepage": "https://github.com/ebisucom/next-react-website",
   "author": "エビスコム - EBISUCOM (https://ebisu.com/)",
   "version": "1.0.0",
@@ -21,14 +21,14 @@
     "html-react-parser": "^2.0.0",
     "html-to-text": "^8.2.0",
     "microcms-js-sdk": "^2.0.0",
-    "next": "12.2.0",
+    "next": "^13.4.7",
     "plaiceholder": "^2.4.0",
-    "react": "18.2.0",
-    "react-dom": "18.2.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
     "sharp": "^0.30.7"
   },
   "devDependencies": {
     "eslint": "^8.29.0",
-    "eslint-config-next": "^13.0.6"
+    "eslint-config-next": "^13.4.7"
   }
 }

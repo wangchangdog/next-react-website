@@ -1,3 +1,5 @@
+'use client'
+
 import { useState } from 'react'
 import Link from 'next/link'
 import styles from 'styles/nav.module.css'
@@ -34,18 +36,18 @@ export default function Nav() {
 
       <ul className={styles.list}>
         <li>
-          <Link href="/">
-            <a onClick={closeNav}>Home</a>
+          <Link href="/" onClick={closeNav}>
+            Home
           </Link>
         </li>
         <li>
-          <Link href="/about">
-            <a onClick={closeNav}>About</a>
+          <Link href="/about" onClick={closeNav}>
+            About
           </Link>
         </li>
         <li>
-          <Link href="/blog">
-            <a onClick={closeNav}>Blog</a>
+          <Link href="/blog" onClick={closeNav}>
+            Blog
           </Link>
         </li>
       </ul>
